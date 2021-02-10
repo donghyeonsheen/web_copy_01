@@ -1,2 +1,33 @@
 /*
+one-page/main-nav
 */
+
+#main-nav {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 40px 120px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-nav__list {
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-nav__logo {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.main-nav__item {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main-nav__item:hover {
+    color: #fff;
+    cursor: pointer;
+}
